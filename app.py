@@ -32,6 +32,7 @@ with tab1:
         st.pills("Skills", skills, selection_mode="single", disabled=False)
     
 with tab2:
+    st.subheader('Projecten') 
     project(
         'Inventory Labelling Automation', 
         'https://images.unsplash.com/photo-1616401784845-180882ba9ba8?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=3600',
