@@ -13,7 +13,7 @@ tab1, tab2, tab3, tab4 = st.tabs([
     ' 👤 Voorstelronde',
     ' 💼 Projecten', 
     ' ⚙️ Werkwijze', 
-    '📤 Stuur een verzoekje'
+    '📤 Contact'
     ])
 
 with tab1:
