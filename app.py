@@ -9,8 +9,9 @@ from projecten import project
 st.header('Stijn van Leeuwen')
 st.caption('Data-Driven Web App Developer voor MKB')
 
-tab1, tab2, tab3, tab4 = st.tabs([
+tab1, tab2, tab3, tab4, tab5 = st.tabs([
     'Voorstelronde',
+    'Diensten',
     'Projecten', 
     'Werkwijze', 
     'Contact'
@@ -32,6 +33,10 @@ with tab1:
         st.pills("Skills", skills, selection_mode="single", disabled=False)
     
 with tab2:
+    st.write('ed')
+    
+    
+with tab3:
     st.subheader('Projecten') 
     project(
         'Inventory Labelling Automation', 
@@ -62,14 +67,14 @@ with tab2:
         'rjbif'
         )
         
-with tab3:
+with tab4:
     st.subheader('Werkwijze')  
     st.caption('Elk project heeft zijn eigenschappen maar het process blijft dezelfde 6 stappen:')
     
     stappen = [
         ['🔍 Orientatie', 'Hier gaan wij samen kijken naar de manieren waarop ik waarde kan toevoegen aan uw onderneming. Als u al een duidelijk idee heeft voor een oplossing, dan slaan wij stap 2 over.'],
         ['💡 Ideatie', 'Na het eerste gesprek ga ik aan de slag met het inkaart brengen van mogelijke oplossingen en verbeteringen.'],
-        ['📊 Offerte per idee','Nadat er een selectie gemaakt is van de beste oplossingen, is het tijd voor het kostenplaatje per idee. Hierbij kan er een selectie worden gemaakt van de features die de oplossinig moet hebben. Dit zorgt ervoor dat alleen datgene geimplementeerd wordt waar daadwerkelijk behoefte aan is. Projecten worden vooraf voor een vast bedrag gefactureerd. Er komen dus geen onverwachte kosten bij na de overeenkomst.'],
+        ['📊 Offerte per idee','Nadat er een selectie gemaakt is van de beste oplossingen, is het tijd voor het kostenplaatje per idee. Hierbij kan er een selectie worden gemaakt van de features die de oplossing moet hebben. Dit zorgt ervoor dat alleen datgene geimplementeerd wordt waar daadwerkelijk behoefte aan is. Projecten worden vooraf voor een vast bedrag gefactureerd. Er komen dus geen onverwachte kosten bij na de overeenkomst.'],
         ['🛠️ Implementatie','Nadat er een akkoord is over de offerte, is het tijd voor het maken van de tool. Hierbij maak ik een planning voor de oplossing en vraag ik om de benodigde materialen van uw kant. Hoelang een project duurt hangt af van de omvang. Ik zal wekelijks de voortgang rapporteren. Hoe transparanter de voortgang hoe beter.'],
         ['📦 Overdracht','Hier wordt de tool/oplossing opgeleverd zoals afgesproken. Vervolgens gaan samen het eind resultaat doorlopen zodat alles duidelijk is.'],
         ['⛑️ Nazorg','Voor vragen kunt u altijd gratis contact opnemen. Als iets niet werkt zoals afgesproken, dan los ik dat vrijblijvend op. Heeft u nieuwe ideëen voor features, verbeteringen of nieuwe projecten? Dan hoor ik die graag en doorlopen wij een nieuw process vanaf stap 2.']
@@ -97,7 +102,7 @@ with tab3:
 
 
 
-with tab4:
+with tab5:
     st.subheader('Neem contact op')
     
     with st.form("my_form", clear_on_submit=False):
