@@ -32,7 +32,7 @@ with tab2:
     
     project(
         'Bol.com product finder', 
-        'https://file.notion.so/f/f/7fb81830-a837-4391-8eb3-ebbfd0a02dbc/861f892f-6637-445a-ac1f-949ced096043/bol.avif?table=block&id=cf5486bd-fb7e-43e4-b581-5768e36e7b12&spaceId=7fb81830-a837-4391-8eb3-ebbfd0a02dbc&expirationTimestamp=1737223200000&signature=vg3FxhkDfNx0H23rKLC7gEBs_lDfeyv2gXyKXze2P_0',
+        'https://www.aholddelhaize.com/media/gcslpvhf/rsz_1_1.jpg',
         'bla bla',
         'rjbif'
         )
