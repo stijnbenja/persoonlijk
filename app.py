@@ -10,10 +10,10 @@ st.header('Stijn van Leeuwen')
 st.caption('Data-Driven Web App Developer voor MKB')
 
 tab1, tab2, tab3, tab4 = st.tabs([
-    ' 👤 Voorstelronde',
-    ' 💼 Projecten', 
-    ' ⚙️ Werkwijze', 
-    '📤 Contact'
+    'Voorstelronde',
+    'Projecten', 
+    'Werkwijze', 
+    'Contact'
     ])
 
 with tab1:
