@@ -6,7 +6,7 @@ from projecten import project
 
 
 
-st.title('Stijn van Leeuwen')
+st.header('Stijn van Leeuwen')
 st.caption('Data-Driven Web App Developer voor MKB')
 
 tab1, tab2, tab3, tab4 = st.tabs([
