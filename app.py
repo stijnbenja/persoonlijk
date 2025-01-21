@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 from projecten import project
 
-
+st.set_page_config(page_title="Freelance web app developer - Stijn van Leeuwen")
 
 
 
